@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  fastapi:
+    image: th-fastapi
+    container_name: th-fastapi
+    ports:
+      - 5050:80
+    restart: always
